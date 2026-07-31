@@ -4,4 +4,4 @@ extern "C" {
     fn tree_sitter_nim() -> *const ();
 }
 
-pub const nimUAGE: LanguageFn = unsafe { LanguageFn::from_raw(tree_sitter_nim) };
+pub const LANGUAGE: LanguageFn = unsafe { LanguageFn::from_raw(tree_sitter_nim) };
